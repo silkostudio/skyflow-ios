@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: |
           xcodebuild clean build \
-            -project skyflow-ios/Skyflow/Skyflow.xcodeproj \
+            -project Skyflow/Skyflow.xcodeproj \
             -scheme Skyflow \
             -destination 'platform=iOS Simulator,name=iPhone 16' \
             CODE_SIGNING_ALLOWED=NO
